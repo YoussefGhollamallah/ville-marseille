@@ -6,7 +6,12 @@
 }
 
 body {
-  background: #ECEFF1;
+  background-color: #ECEFF1;
+}
+
+/* class prédifini */
+.text-center {
+  text-align: center;
 }
 
 /* HEADER */
@@ -42,7 +47,6 @@ header {
 }
 
 /* NAV-LINK */
-
 
 #menu__toggle {
   opacity: 0;
@@ -140,6 +144,22 @@ header {
 }
 
 
+/* MAIN */
+
+#article_principal {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 300px;
+}
+
+.container-article {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 /* MOBILE VERSION */
 
@@ -155,3 +175,6 @@ header {
 
 
 }
+
+
+
